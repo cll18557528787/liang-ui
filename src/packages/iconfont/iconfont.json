@@ -1,0 +1,79 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1004581",
+      "name": "等待",
+      "font_class": "dengdai",
+      "unicode": "e61f",
+      "unicode_decimal": 58911
+    },
+    {
+      "icon_id": "2155089",
+      "name": "信息",
+      "font_class": "xinxi",
+      "unicode": "e62d",
+      "unicode_decimal": 58925
+    },
+    {
+      "icon_id": "4685699",
+      "name": "错误",
+      "font_class": "Group-",
+      "unicode": "e686",
+      "unicode_decimal": 59014
+    },
+    {
+      "icon_id": "5203262",
+      "name": "警告",
+      "font_class": "jinggao",
+      "unicode": "e627",
+      "unicode_decimal": 58919
+    },
+    {
+      "icon_id": "6028320",
+      "name": "等待",
+      "font_class": "dengdai-",
+      "unicode": "e629",
+      "unicode_decimal": 58921
+    },
+    {
+      "icon_id": "6970393",
+      "name": "成功",
+      "font_class": "chenggong",
+      "unicode": "e709",
+      "unicode_decimal": 59145
+    },
+    {
+      "icon_id": "7286487",
+      "name": "loading",
+      "font_class": "loading",
+      "unicode": "e632",
+      "unicode_decimal": 58930
+    },
+    {
+      "icon_id": "7872845",
+      "name": "成功",
+      "font_class": "chenggong1",
+      "unicode": "e643",
+      "unicode_decimal": 58947
+    },
+    {
+      "icon_id": "11372698",
+      "name": "失败",
+      "font_class": "shibai",
+      "unicode": "e8b8",
+      "unicode_decimal": 59576
+    },
+    {
+      "icon_id": "14313162",
+      "name": "关闭",
+      "font_class": "guanbi",
+      "unicode": "e60b",
+      "unicode_decimal": 58891
+    }
+  ]
+}

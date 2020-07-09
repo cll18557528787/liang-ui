@@ -1,0 +1,217 @@
+/* message */
+.liangTip{
+  position: fixed;
+  color: #fff;
+  padding: 20px 20px;
+  border-radius: 8px;
+  font-size: 28px;
+  background-color: rgba(0,0,0,.6);
+}
+.liangTipcenter{
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+}
+.liangTiptop{
+  left: 50%;
+  top: 50px;
+  transform: translateX(-50%);
+}
+.liangTipbottom{
+  left: 50%;
+  bottom: 50px;
+  transform: translateX(-50%);
+}
+.liangTipIcon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.liangTip .iconfont{
+  font-size: 80px;
+}
+.liangTipMsg{
+  text-align: center;
+}
+/* message */
+
+/* loading */
+.liangLoading{
+  position: fixed;
+  min-width: 80px;
+  min-height: 80px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%,-50%);
+  color: #fff;
+  padding: 15px 20px;
+  border-radius: 8px;
+  font-size: 28px;
+  background-color: rgba(0,0,0,.6);
+  /* display: flex;
+  align-items: center;
+  justify-content: center; */
+}
+.liangLoadingIcon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: turn 2s infinite linear;
+}
+.liangLoading .iconfont{
+  font-size: 80px;
+}
+@keyframes turn{
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}
+.liangLoadingText{
+  width: 117px;
+  text-align: center;
+}
+/* loading */
+
+/* alert */
+.liangAlert{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 50;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.liangAlertContent{
+  width: 80%;
+  height: 276px;
+  background-color: #fff;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.liangAlertContentTitle{
+  font-size: 34px;
+  padding-top: 30px;
+  text-align: center;
+}
+.liangAlertContentMsg{
+  flex-grow: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 26px;
+  color: #888;
+  padding: 0 26px;
+  /* overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 3; */
+}
+.liangAlertContentMsg input{
+  height: 56px;
+  width: 80%;
+  outline: none;
+  font-size: 32px;
+  text-indent: 20px;
+  border-radius: 4px;
+  border:1px solid rgb(74, 149, 235);
+}
+.liangAlertContentBtn{
+  height: 76px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  color: rgb(74, 149, 235);
+  box-sizing: border-box;
+  border-top: 1px solid #ccc;
+  padding: 0 20px;
+}
+.liangAlertContentBtns{
+  height: 76px;
+  display: flex;
+  border-top: 1px solid #ccc;
+}
+.liangAlertContentBtns div{
+  flex-grow: 1;
+  text-align: center;
+  line-height: 76px;
+  font-size: 30px;
+  color: rgb(74, 149, 235);
+}
+.liangAlertContentBtns div:first-child{
+  border-right: 1px solid #ccc;
+}
+/* alert */
+
+/* action */
+.liangActionAlert{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 50;
+}
+.liangActionBody{
+  position: absolute;
+  bottom: 0;
+  width: 100vw;
+  background-color: #fff;
+  animation: show 0.06s linear;
+}
+@keyframes show{
+  from{bottom: -100px;}
+  to{bottom: 0;}
+}
+.liangActionList{
+  height: 90px;
+  box-sizing: border-box;
+  border-bottom: 1px solid rgb(224, 224, 224);
+  text-align: center;
+  line-height: 90px;
+  font-size: 36px;
+  color: #333;
+}
+.liangActionCancel{
+  height: 90px;
+  box-sizing: border-box;
+  border-top: 3px solid rgb(224, 224, 224);
+  text-align: center;
+  line-height: 90px;
+  font-size: 36px;
+  color: #333;
+}
+/* action */
+
+/* pull */
+.liangPull{
+  position: absolute;
+  width: 100%;
+  transition: 0.2s linear;
+}
+.liangPullTop{
+  height: 95px;
+  text-align: center;
+  line-height: 95px;
+  background-color: rgb(245, 245, 245);
+}
+.liangPullTop i{
+  display: inline-block;
+  font-size: 40px;
+  animation: turn 2s infinite linear;
+}
+.liangPullTopText{
+  color: #999;
+}
+/* pull */
