@@ -195,6 +195,13 @@
 /* action */
 
 /* pull */
+.liangPullWrap{
+  height: 100%;
+  width: 100%;
+}
+.liangPullWrap::-webkit-scrollbar{
+  width: 0 !important;
+}
 .liangPull{
   position: absolute;
   width: 100%;

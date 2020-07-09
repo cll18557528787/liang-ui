@@ -25,7 +25,7 @@ function handleRefresh(){
 
 function Demo(){
   return(
-    <div style={{height:'600px',position:'relative',overflowY:'scroll'}}>
+    <div style={{height:'600px'}}>
       <Pull render={()=><List/>} whiteText={'加载中'} callback={handleRefresh}>
 
       </Pull>

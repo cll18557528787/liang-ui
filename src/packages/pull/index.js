@@ -34,18 +34,20 @@ function Pull(props){
   }
 
   return(
-    <div className="liangPull" style={style}>
-      <div className="liangPullTop">
-        {
-          whiteText ? <span className="liangPullTopText">{whiteText}</span> : <i className="iconfont icon-dengdai-"></i>
-        }
-      </div>
-      <div className="liangPullMain" onTouchStart={(e)=>{handleTouch(e)}}
-        onTouchMove={(e)=>{handleTouchMove(e)}}
-        onTouchEnd={(e)=>{handleTouchEnd(e)}}>
-        {
-          props.render()
-        }
+    <div className="liangPullWrap" style={{position:'relative',overflowY:'scroll'}}>
+      <div className="liangPull" style={style}>
+        <div className="liangPullTop">
+          {
+            whiteText ? <span className="liangPullTopText">{whiteText}</span> : <i className="iconfont icon-dengdai-"></i>
+          }
+        </div>
+        <div className="liangPullMain" onTouchStart={(e)=>{handleTouch(e)}}
+          onTouchMove={(e)=>{handleTouchMove(e)}}
+          onTouchEnd={(e)=>{handleTouchEnd(e)}}>
+          {
+            props.render()
+          }
+        </div>
       </div>
     </div>
   )
